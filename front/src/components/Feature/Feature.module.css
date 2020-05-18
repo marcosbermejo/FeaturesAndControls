@@ -1,0 +1,18 @@
+.Feature{
+    overflow: hidden;
+}
+
+.Tables{
+    display: flex;
+    background-color: white;
+}
+
+.Table{
+    height: calc(100% - 48px);
+    overflow: auto;
+}
+
+.Table.Half{
+    width: 50%;
+    display: inline-block;
+}

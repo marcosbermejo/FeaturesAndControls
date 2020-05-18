@@ -1,0 +1,26 @@
+.List{
+    display: flex;  
+    flex-wrap: wrap;  
+}
+
+.Item {
+    width: calc(20% - 20px);
+    padding: 10px;
+}
+
+.Big {
+    width: calc(40% - 20px);
+}
+
+.Item > div {
+    overflow: auto;
+    max-height: 100%;
+}
+
+.Small > div {
+    max-height: calc(50% - 5px);
+}
+
+.Small > div:first-of-type {
+    margin-bottom: 10px;
+}

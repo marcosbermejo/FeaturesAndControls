@@ -1,0 +1,15 @@
+.Title{
+    padding: 0.75em;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.Title h2{
+    margin: 0 0 0 30px;
+    flex-grow: 1;
+    font-variant: all-petite-caps;
+    line-height: 0.75;
+    white-space: nowrap;
+    overflow: hidden;
+}

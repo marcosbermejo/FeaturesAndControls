@@ -1,0 +1,13 @@
+.Header{
+    display: flex;
+    padding: 1em 0;
+}
+
+.Header h1{
+    flex-grow: 1;
+    margin: 0;
+}
+
+.Header .Switch{
+    justify-self: flex-end;
+}
